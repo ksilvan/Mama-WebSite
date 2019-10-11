@@ -1,8 +1,12 @@
 
+body{
+  padding: 0;
+  margin: 0;
+}
 p{
   color: #464159;
   font-family: Montserrat;
-  line-height: 1.4;
+  line-height: 1.5;
   max-width: 30em;
   text-align: justify;
   margin: 1em;
@@ -29,13 +33,28 @@ hr{
   display: inline-block;
 }
 .rightInfo{
-  margin-left: 55%;
+  width: 100%;
   display: inline-block;
 }
-
+.infoContentRight{
+  float: right;
+  overflow: hidden;
+  margin-right: 20%;
+}
+.img_top{
+  width: 100%;
+  height: auto;
+}
 
 textarea{
   resize: none;
+}
+.infoContent{
+  overflow: hidden;
+}
+img{
+  height: 577px;
+  margin: none 20%;
 }
 
 /** Navigation Bar **/
@@ -44,7 +63,7 @@ textarea{
   overflow: hidden;
   padding: 0;
   margin: 0;
-  padding-right: 2em;
+  padding-right: 10em;
 }
 .navDiv li{
   float: right;
